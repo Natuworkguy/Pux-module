@@ -1,6 +1,6 @@
 # Pux
 
-Python-powered graphics and game bindings for Rux.
+Python-powered graphics and game bindings for [Rux](https://github.com/rux-lang/Rux).
 
 Pux provides simple access to rendering, graphics, and game functionality through a native DLL backend powered by Python and pygame.
 
