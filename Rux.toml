@@ -2,8 +2,9 @@
 Name    = "Pux"
 Version = "0.0.1"
 Type    = "Source"
-Authors = ["Natuworkguy"]
-Description = "Pux is a graphics and windowing module for Rux powered by Pygame."
 
 [Build]
 Output = "Bin"
+
+[Dependencies]
+Std = "*"
