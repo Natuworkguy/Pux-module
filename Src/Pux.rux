@@ -1,0 +1,23 @@
+module Pux {
+    import Std::String;
+
+    @[Import(lib: "pygame_bindings.dll")]
+    extern {
+        func pg_init();
+
+        func pg_clear();
+
+        func pg_present();
+
+        func pg_draw_rect(
+            x: int,
+            y: int,
+            w: int,
+            h: int
+        );
+
+        func pg_running() -> int;
+
+        func pg_quit();
+    }
+}
