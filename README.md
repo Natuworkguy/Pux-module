@@ -45,23 +45,25 @@ MyGame/
 # Example
 
 ```rux
+import Pux::*;
+
 func Main() -> int {
-    Pux::pg_init();
+    pg_init();
 
-    while Pux::pg_running() == 1 {
-        Pux::pg_clear();
+    while pg_running() == 1 {
+        pg_clear();
 
-        Pux::pg_draw_rect(
+        pg_draw_rect(
             100,
             100,
             200,
             150
         );
 
-        Pux::pg_present();
+        pg_present();
     }
 
-    Pux::pg_quit();
+    pg_quit();
 
     return 0;
 }
