@@ -4,11 +4,11 @@ Python-powered graphics and game bindings for [Rux](https://github.com/rux-lang/
 
 Pux provides simple access to rendering, graphics, and game functionality through a native DLL backend powered by Python and pygame.
 
-The actual pygame bindings are [here](https://github.com/Natuworkguy/Pux).
+The actual pygame bindings repo is [at this repo.](https://github.com/Natuworkguy/Pux).
 
 ---
 
-# Installation
+## Installation
 
 Add Pux to your project:
 
@@ -24,13 +24,11 @@ rux install
 
 ---
 
-# Downloading the Native DLL
+## Downloading the Native DLL
 
 Pux requires the native backend library.
 
-Download:
-
-https://github.com/Natuworkguy/Pux/releases/latest/download/pygame_bindings.dll
+Download [pygame_bindings.dll](https://github.com/Natuworkguy/Pux/releases/latest/download/pygame_bindings.dll)
 
 Place the DLL next to your compiled executable.
 
@@ -44,7 +42,7 @@ MyGame/
 
 ---
 
-# Example
+## Example
 
 ```rux
 import Pux::*;
@@ -73,7 +71,7 @@ func Main() -> int {
 
 ---
 
-# Building
+## Building
 
 Compile your Rux project normally:
 
@@ -85,7 +83,7 @@ Make sure `pygame_bindings.dll` is located beside the generated executable befor
 
 ---
 
-# Requirements
+## Requirements
 
 - Python 3.13+
 - pygame
@@ -93,7 +91,7 @@ Make sure `pygame_bindings.dll` is located beside the generated executable befor
 
 ---
 
-# Notes
+## Notes
 
 - The DLL backend handles communication with Python and pygame internally.
 - The Rux package acts as bindings and helper APIs for the native backend.
@@ -101,8 +99,8 @@ Make sure `pygame_bindings.dll` is located beside the generated executable befor
 
 ---
 
-# Links
+## Links
 
-- https://github.com/Natuworkguy/Pux/releases
-- https://www.pygame.org
-- https://rux-lang.dev
+- [https://github.com/Natuworkguy/Pux/releases](https://github.com/Natuworkguy/Pux/releases)
+- [https://www.pygame.org](https://www.pygame.org)
+- [https://rux-lang.dev](https://rux-lang.dev)
