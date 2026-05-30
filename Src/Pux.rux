@@ -1,6 +1,4 @@
 module Pux {
-    import Std::String;
-
     @[Import(lib: "pygame_bindings.dll")]
     extern {
         func pg_init();
