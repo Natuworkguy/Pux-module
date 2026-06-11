@@ -4,7 +4,11 @@ module Pux {
         /// Clears the screen.
         /// Parameters:
         /// - `color`: The color to clear the screen with.
-        func pg_clear(color: int);
+        func pg_clear(
+            r: int,
+            g: int,
+            b: int
+        );
 
         /// Presents the rendered frame.
         func pg_present();
