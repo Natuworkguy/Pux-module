@@ -1,0 +1,24 @@
+module Pux {
+    import Std::String;
+
+    @[Import(lib: "pygame_bindings.dll")]
+    extern {
+        /// Initializes the graphics system with the specified width and height.
+        /// Parameters:
+        /// - `width`: The width of the window in pixels.
+        /// - `height`: The height of the window in pixels.
+        func pg_init(
+            width: int,
+            height: int
+        );
+
+        /// Checks if the graphics system is running.
+        /// Returns:
+        /// - `1`: If the system is running.
+        /// - `0`: If the system is not running.
+        func pg_running() -> int;
+
+        /// Quits the graphics system.
+        func pg_quit();
+    }
+}
