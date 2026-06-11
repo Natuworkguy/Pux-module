@@ -4,7 +4,7 @@ Python-powered graphics and game bindings for [Rux](https://github.com/rux-lang/
 
 Pux provides simple access to rendering, graphics, and game functionality through a native DLL backend powered by Python and pygame.
 
-The actual pygame bindings repo is [at this repo.](https://github.com/Natuworkguy/Pux).
+The actual pygame bindings repo is [here](https://github.com/Natuworkguy/Pux).
 
 ---
 

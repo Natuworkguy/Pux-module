@@ -1,6 +1,4 @@
 module Pux {
-    import Std::String;
-
     @[Import(lib: "pygame_bindings.dll")]
     extern {
         /// Initializes the graphics system with the specified width and height.
