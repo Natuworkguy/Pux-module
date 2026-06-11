@@ -3,6 +3,9 @@ Name    = "Pux"
 Version = "0.0.1"
 Type    = "Source"
 
+Description = "pygame binary for Rux"
+Authors = ["Nathan C."]
+
 [Build]
 Output = "Bin"
 
