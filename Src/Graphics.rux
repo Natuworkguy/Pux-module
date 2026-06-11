@@ -1,5 +1,5 @@
 module Pux {
-    @[Import(lib: "pygame_bindings.dll")]
+    @[Import(lib: "pygame.dll")]
     extern {
         /// Clears the screen.
         /// Parameters:
