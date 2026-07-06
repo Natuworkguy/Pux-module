@@ -3,7 +3,7 @@ Name    = "Pux"
 Version = "0.0.1"
 Type    = "Source"
 
-Description = "pygame binary for Rux"
+Description = "pygame bindings for Rux"
 Authors = ["Nathan C."]
 
 [Build]
