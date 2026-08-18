@@ -79,7 +79,7 @@ Compile your Rux project normally:
 rux build
 ```
 
-Make sure `pygame_bindings.dll` is located beside the generated executable before running.
+Make sure `pygame.dll` is located beside the generated executable before running.
 
 ---
 
@@ -95,7 +95,7 @@ Make sure `pygame_bindings.dll` is located beside the generated executable befor
 
 - The DLL backend handles communication with Python and pygame internally.
 - The Rux package acts as bindings and helper APIs for the native backend.
-- Distribute `pygame_bindings.dll` with every built application.
+- Distribute `pygame.dll` and `python313.dll` with every built application.
 
 ---
 
